@@ -1,4 +1,4 @@
 # LSJS
-LocalizedSound.JS | Created for use with Argon2 Isotype @ Georgia Tech | CS 4770 - MR Design
+LocalizedSound.JS | For use with Argon2 Isotype | CS 4770 - MR Design @ Georgia Tech
 
-Project makes use of howler.js which can be found here: http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library
+This project makes use of howler.js, which can be found here: http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library
