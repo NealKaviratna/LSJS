@@ -5,11 +5,12 @@ function ThreeDimensionalSound (GPSCoord, soundfile, eventTrigger, loop) {
     this.isPLaying = false;
     this.isLooping = loop;
     
-    // TODO: take the GPSCoordinate data and determine what x/y/z values to use
-    
     // Add a listener if a trigger is passed in to start the audio. If no trigger is wanted, null should be passed in for eventTrigger
     this.audio = new Audio(soundfile);
     if (eventTrigger) audio.addEventListener(eventTrigger, ThreeDimensionalSound.prototype.play);
+    
+    // TODO: take the GPSCoordinate data and determine what x/y/z values to use based on current position
+    // this.audio.pos3d(x,y,z);
 }
 
 ThreeDimensionalSound.prototype.play = function() {
